@@ -2,7 +2,7 @@
 <p><b>Description: </b>On this project I made adaptive Single-page application using React library.</p> 
 <a href="">LIVE</a>
 
-![React App - Google Chrome 2022-07-08 20-52-02 (online-video-cutter com)](https://user-images.githubusercontent.com/67589338/178045913-ee455653-4963-488f-b50f-c2268e8fd4f9.gif)
+![React-App-Google-Chrome-2022-07](https://user-images.githubusercontent.com/67589338/178574498-4ced34a8-d981-4604-9aea-7019a9bbe52b.gif)
 
 <b>Technologies that I used:</b>
 <ul>
