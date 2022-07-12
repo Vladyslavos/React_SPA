@@ -1,0 +1,43 @@
+.dashboard {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: azure;
+  h1 {
+    text-align: center;
+    color: azure;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .card {
+      width: 28%;
+      height: 40%;
+      border-top: 3px solid rgba(24, 24, 24, 0.8);
+      &:hover {
+        border-color: rgba(255, 106, 13, 0.4);
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    .posterImg {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+@media (max-width: 860px) {
+  .posterImg {
+    width: 160px;
+    height: 160px;
+  }
+}

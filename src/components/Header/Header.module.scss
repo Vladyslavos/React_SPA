@@ -1,0 +1,95 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #181818;
+  font-family: "Titillium Web", sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  .MobileNavigation {
+    display: none;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .menu {
+      list-style-type: none;
+      padding-right: 20px;
+      li {
+        display: inline-block;
+        a {
+          display: block;
+          font-size: 16px;
+          color: #e1e1e1;
+          padding: 0 12px;
+          text-decoration: none;
+        }
+      }
+    }
+    .buttons {
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        padding-left: 10px;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      .loginButton {
+        padding: 0 6px;
+      }
+      .signupButton {
+        margin-left: 15px;
+        padding: 4 8px;
+        border: 1px solid #e1e1e1;
+      }
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .header {
+    max-width: 100%;
+  }
+  .header .navigation {
+    display: none;
+  }
+  .header .MobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+  .header .MobileNavigation .hamburger {
+    position: absolute;
+    right: 8%;
+    cursor: pointer;
+  }
+  .header .MobileNavigation .closeIcon {
+    position: absolute;
+    right: 8%;
+    cursor: pointer;
+    color: #ffff !important;
+  }
+  .header nav .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 105px;
+    padding-bottom: 20px;
+    left: 0;
+    width: 100%;
+    background: #181818;
+    border-top: 2px solid #8c1dc1;
+  }
+  .header ul {
+    display: flex;
+    flex-direction: column;
+  }
+}

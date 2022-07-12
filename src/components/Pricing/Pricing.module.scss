@@ -1,0 +1,65 @@
+.pricing {
+  max-width: 80%;
+  margin: 0 auto;
+  font-family: "Titillium Web", sans-serif;
+  after {
+    content: url(../../assets/img/btc.svg);
+  }
+  h1 {
+    text-align: center;
+    color: azure;
+  }
+  span {
+    color: #e38215;
+  }
+  .activeClass {
+    color: purple;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .crypto_card {
+      width: 30%;
+      border-top: 3px solid rgba(24, 24, 24, 0.8);
+      padding-top: 10px;
+      text-align: center;
+      &:hover {
+        border-color: rgba(255, 106, 13, 0.4);
+        cursor: pointer;
+      }
+      span {
+        color: #85bb65;
+      }
+      & {
+        color: azure;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+    h2 {
+      font-size: 14px;
+    }
+    & .crypto_card {
+      width: 50%;
+      padding: 20px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    font-size: 12px;
+    h2 {
+      font-size: 12px;
+    }
+    & .crypto_card {
+      padding: 15px;
+    }
+  }
+}
