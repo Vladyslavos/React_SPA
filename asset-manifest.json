@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/React_SPA/static/css/main.1cc78226.css",
-    "main.js": "/React_SPA/static/js/main.cc5a4e98.js",
+    "main.js": "/React_SPA/static/js/main.af4d445a.js",
     "static/js/787.a2bf511c.chunk.js": "/React_SPA/static/js/787.a2bf511c.chunk.js",
     "static/media/blockchain.jpg": "/React_SPA/static/media/blockchain.14b5ee1ddd72a4126cd9.jpg",
     "static/media/logoTest.svg": "/React_SPA/static/media/logoTest.1bb1619a4e01e53fc4ca28506c0e5276.svg",
     "static/media/btc.svg": "/React_SPA/static/media/btc.9e4cde66f4ac28ab3b06.svg",
     "index.html": "/React_SPA/index.html",
     "main.1cc78226.css.map": "/React_SPA/static/css/main.1cc78226.css.map",
-    "main.cc5a4e98.js.map": "/React_SPA/static/js/main.cc5a4e98.js.map",
+    "main.af4d445a.js.map": "/React_SPA/static/js/main.af4d445a.js.map",
     "787.a2bf511c.chunk.js.map": "/React_SPA/static/js/787.a2bf511c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cc78226.css",
-    "static/js/main.cc5a4e98.js"
+    "static/js/main.af4d445a.js"
   ]
 }
