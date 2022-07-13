@@ -17,7 +17,7 @@ const Pricing = () => {
             <p>
               Price: {price.Price} <span>$</span>
             </p>
-            <p>Volume: {price.volume} </p>
+            <p>Volume: {price.Volume} </p>
           </div>
         ))}
       </div>
